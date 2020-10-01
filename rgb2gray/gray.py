@@ -13,7 +13,7 @@ for i in range(len(img)):
 	for j in range(len(img[0])):
 		temp = img[i][j]
 		# Average method
-		row1.append( (int(temp[0]) + int(temp[1]) + int(temp[2]))/3 )
+		row1.append(int((temp[0] + temp[1] + temp[2])/3))
 
 		# weighted method
 		row2.append( (int(temp[0])*0.3) + (int(temp[1])*0.59) + (int(temp[2])*0.11) )
